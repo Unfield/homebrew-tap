@@ -3,7 +3,7 @@
 ```sh
 brew tap unfield/tap
 brew trust unfield/tap     # newer Homebrew versions require this for third-party taps
-brew install --cask reclaim
+brew install --cask unfield/tap/reclaim
 ```
 
 This installs [Reclaim](https://github.com/Unfield/Reclaim), a free, open-source disk cleanup app for macOS, along with its `reclaim` command-line tool.
