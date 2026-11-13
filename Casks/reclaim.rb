@@ -1,8 +1,8 @@
 # Template for the cask in https://github.com/Unfield/homebrew-tap.
-# The Release workflow fills in 0.5.0 and 02621917dca0956ac40ad6184bcf4325bc4fe3a7ad9ac65c8984a96b17ac8495 and pushes it there.
+# The Release workflow fills in 0.6.0 and 5cfddae0ae637d27fdb5cd7703c474166593fc9d27346278c7573a1152c2bd20 and pushes it there.
 cask "reclaim" do
-  version "0.5.0"
-  sha256 "02621917dca0956ac40ad6184bcf4325bc4fe3a7ad9ac65c8984a96b17ac8495"
+  version "0.6.0"
+  sha256 "5cfddae0ae637d27fdb5cd7703c474166593fc9d27346278c7573a1152c2bd20"
 
   url "https://github.com/Unfield/Reclaim/releases/download/v#{version}/Reclaim-#{version}.dmg"
   name "Reclaim"
